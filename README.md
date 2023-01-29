@@ -1,5 +1,7 @@
 # Automated Physical Law discovery from Dta using Physics Informed Neural Networks (PINNs)
 
+![PINNs scheme](PINNs.png "PINNs scheme").
+
 ## Intro and Motivation
 
 This is the repository of my Master Thesis titled **Automated Physical Law Discovery from data using Physics-Informed Deep Learning**. The final PDF version of my thesis is divided in 2 parts: **Thesis Intro.pdf** cover introdcutory chapters and **Thesis Work** covers the results and tecnhical wortk done. This repository has all the code used to produce the results in it.
