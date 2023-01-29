@@ -2,7 +2,7 @@
 
 ## Intro and Motivation
 
-This is the repository of my Master Thesis titled **Automated Physical Law Discovery from data using Physics-Informed Deep Learning**. The final PDF version of my thesis is **Thesis.pdf**, and this repository has all the code used to produce the results in it.
+This is the repository of my Master Thesis titled **Automated Physical Law Discovery from data using Physics-Informed Deep Learning**. The final PDF version of my thesis is divided in 2 parts: **Thesis Intro.pdf** cover introdcutory chapters and **Thesis Work** covers the results and tecnhical wortk done. This repository has all the code used to produce the results in it.
 
 My thesis is the result of a year-long internship in Flanders Make, a Research Center located in Leuven (Belgium), which tries to make bridge Research and Academia, and ,nowadays, works more on Automation, Optimization, and Machine Learning (Deep Learning  included) with focus on industrial settings.
 The main goals of the internship were:
