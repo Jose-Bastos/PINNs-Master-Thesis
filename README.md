@@ -1,6 +1,6 @@
 # Automated Physical Law discovery from Dta using Physics Informed Neural Networks (PINNs)
 
-![PINNs scheme](PINNs.png "PINNs scheme").
+![PINNs scheme](PINNs.png "PINNs scheme")
 
 ## Intro and Motivation
 
@@ -12,6 +12,11 @@ The main goals of the internship were:
 1. Understand what are PINNs: main concepts, advantages/disadvantages, use cases, and state-of-the-art techniques and implementations.
 2. Use PINNs to determine the underlying Physical Laws of 2 systems: Axially Moving String and Weather.
 3. Use PINNs to forecast the 2 previous system's behavior.
+
+Here is a GIF showcasing a PINN forecasting a vibrating wire position, only having training data from $t=[0,2]s$ and predicting the wire's position for $t=[2,4]s$. We can see the predict power of PINNs when there isn't training data available.
+
+![PINNs forecasting](https://github.com/Jose-Bastos/PINNs-Master-Thesis/blob/main/String%20Model%20GIF.gif "PINNs forecasting")
+
 
 
 ## Structure and Guide 
@@ -30,6 +35,7 @@ All notebooks should be commented and accompanied by a small description of what
     2. *Weather2D.ipynb*: Tackles the 2D Weather problem. Load the Data and trains a PINN using possible different approaches of Library of terms (ad-hoc, Bernard-Railegh convection mode). Shows PINNs failing to correctly forecast the 2D Weather.
  
 I reccomend reading (skimming) the thesis and then experiment with notebooks **Full_Pipeline.ipynb**, **GIFs.ipynb**, and **Weather1D**.
+
 
 ## Acknowledgments
 
