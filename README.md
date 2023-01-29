@@ -1,8 +1,8 @@
-# Automated Physical Law discovery from Data using Physics Informed Neural Networks (PINNs)
+# Automated Physical Law discovery from Dta using Physics Informed Neural Networks (PINNs)
 
 ## Intro and Motivation
 
-This is the repository of my Master Thesis titled **Automated Physical Law Discovery from data using Deep Learning**. The final PDF version of my thesis is **blblabla.pdf**, and this repository has all the code used to produce the results in it.
+This is the repository of my Master Thesis titled **Automated Physical Law Discovery from data using Physics-Informed Deep Learning**. The final PDF version of my thesis is **Thesis.pdf**, and this repository has all the code used to produce the results in it.
 
 My thesis is the result of a year-long internship in Flanders Make, a Research Center located in Leuven (Belgium), which tries to make bridge Research and Academia, and ,nowadays, works more on Automation, Optimization, and Machine Learning (Deep Learning  included) with focus on industrial settings.
 The main goals of the internship were:
@@ -27,5 +27,8 @@ All notebooks should be commented and accompanied by a small description of what
     1. *Weather1D.ipynb*: Tackles the 1D Weather problem. Loads the Data and trains a PINN with Fourier Transform dominant frequencies.
     2. *Weather2D.ipynb*: Tackles the 2D Weather problem. Load the Data and trains a PINN using possible different approaches of Library of terms (ad-hoc, Bernard-Railegh convection mode). Shows PINNs failing to correctly forecast the 2D Weather.
  
+I reccomend reading (skimming) the thesis and then experiment with notebooks **Full_Pipeline.ipynb**, **GIFs.ipynb**, and **Weather1D**.
+
 ## Acknowledgments
 
+I want to thank all my supervisors: Agusmian, Erik, Kerem, Jeroen, and prof. João Pedroso for their guidance and help. 
